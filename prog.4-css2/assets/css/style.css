@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin-inline: auto ;
+}
+
+style {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-image: url(../img/sfondo.png);
+        padding: 2rem;
+        text-align: center;
+        margin-inline: auto;
+}
+
+
+header {
+
+    background-color: rgb(9, 227, 243);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 9px;
+    border-bottom: 4px solid rgba(168, 75, 75, 0.26);
+}
+
+ul {
+    list-style-type: disc;
+}
+
+header ul li {
+    list-style: none;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+main    {
+    padding: 2rem;
+        background-color: rgb(182, 180, 180);
+        width: auto;
+        text-align: center;
+        border-bottom: 4px;
+        border-radius: 6px;
+        border-color: rgba(0, 0, 0, 0.313);
+    }
+
+
+
+.table {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+
+    background-color: rgba(0, 140, 255, 0.427);
+    border-bottom: 1px solid black;
+}
+
+
+table thead {
+    background-color: blue;
+    border-bottom: 4px solid rgb(3, 0, 199);
+}
+
+
+table caption{
+        color: black;
+        font-weight: 400;
+        font-style: oblique;
+}
+
+iframe {
+    display: block;
+    width: auto;
+    padding: 2px;
+    border-radius: 20px;
+    
+}
+
+
+.newsletter {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+}
+    
+
+.blocco1 {
+    background-color: grey;
+    margin: 6px;
+    padding: 1rem;
+border-radius: 10px}
+
+.blocco2 {
+    background-color: grey;
+    margin: 6px;
+    padding: 1rem;
+border-radius: 10px}
+
+.blocco3 {
+    background-color: grey;
+    margin: 6px;
+    padding: 1rem;
+border-radius: 10px}
+
+
+footer {
+    padding: 4px;
+    background-color: teal;
+border-radius: 10px}

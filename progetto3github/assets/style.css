@@ -1,0 +1,39 @@
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header img {
+    display: inline-block;
+    margin-inline: auto;
+}
+
+article p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+    font-variant: small-caps;
+    
+}
+
+h1 {
+        padding: 6px;
+        margin: 0;
+        text-align: center;
+        color: salmon;
+        font-weight: 800;
+    }
+
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    padding: 4px;
+}
